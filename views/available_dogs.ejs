@@ -1,0 +1,42 @@
+<!-- Exercice 4 - Step 3 of the Running Project - Adopt a Dog/Cat -->
+<!-- Browse available pets page -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Exercice 4 - Available Dogs</title>
+        <link rel="stylesheet" href="Question7.css">
+        <meta charset="utf-8">
+        <script src="javascript.js"></script>
+    </head>
+    <body>
+        <!-- header of the webpage -->
+        <%- include('header') %>
+
+        <!-- Side menu bar-->
+        <%- include('menu') %>
+
+        <!-- Content of the browse available pets-->
+        <div class="content">
+            <h1>Available Dogs</h1>
+            <% dogs.forEach(function(dog) { %>
+                <p>
+                    Breed: <span><b><%= dog.breed %></b></span><br>
+                    Age: <span><b><%= dog.age %></b></span><br>
+                    Gender: <span><b><%= dog.gender %></b></span><br>
+                    Gets along with other dogs: <span><b><%= dog.otherDogs%></b></span><br>
+                    Gets along with other cats: <span><b><%= dog.otherCats %></b></span><br>
+                    Gets along with small children: <span><b><%= dog.smallChildren %></b></span><br>
+                    <button onclick="alert('Interested in this dog!')">Interested</button>
+                </p>
+            <% }); %>
+        </div>
+
+        <!-- Footer -->
+        <%- include('footer') %>
+    </body>
+</html>
+
+<!-- Bibliography:
+    - LOGO: The logo for this website page was created using Canva.com
+    reference: https://www.canva.com/design/play?type=TAB7AVEOUWQ&category=tACZCvjI6mE&locale=en
+-->

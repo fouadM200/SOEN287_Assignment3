@@ -1,0 +1,118 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f8f7f7;
+    line-height: 1.45;
+    margin: 0;
+}
+
+header {
+    background-color: #7CB8F2;
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+#menu {
+    background-color: #7cb9f267;
+    padding-top: 8em;
+    height: 100vh;
+    width: 12.95em;
+    font-size: 17px;
+    text-indent: 10px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+#menu p:hover {
+    background-color: #f8f7f7;
+    color: black;
+    text-decoration: none;
+}
+
+#menu p a {
+    color: black;
+    text-decoration: none;
+}
+
+#title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    padding-top: 0;
+    padding-left: 8.5em;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 440px;
+}
+
+#time {
+    text-align: right;
+    width: 750px;
+    padding-right: 5em;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.content {
+    padding-left: 18em;
+    padding-right: 3em;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    text-align: justify;
+}
+
+h1, .content h2 {
+    padding-top: 1em;
+}
+
+.home_page_description {
+    text-indent: 3em;
+}
+
+.link a {
+    text-decoration: none;
+    color: blue;
+}
+
+#contact_us {
+    padding-left: 5%;
+    list-style-type: none;
+}
+
+#form {
+    text-indent: 2em;
+}
+
+#submit:active, #clear:active {
+    background-color: lightblue;
+}
+
+footer {
+    text-align: center;
+    background-color: #7CB8F2;
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+}
+
+.browse_pet_table tr th {
+    width: 22em;
+}
+
+.comments {
+    vertical-align: top;
+}
+
+.image_position {
+    vertical-align: middle;
+    text-align: center;
+}

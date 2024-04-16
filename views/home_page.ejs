@@ -1,0 +1,91 @@
+<!-- Exercice 4 - Step 3 of the Running Project - Adopt a Dog/Cat -->
+<!-- Home page -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Exercice 4 - Home Page</title>
+        <link rel="stylesheet" href="Question7.css">
+        <meta charset="utf-8">
+        <script src="javascript.js"></script>
+    </head>
+    <body>
+        <!-- header of the webpage -->
+        <%- include('header') %>
+
+        <!-- Side menu bar-->
+        <%- include('menu') %>
+
+        <!-- Content of the home page-->
+            <div class="content">
+                <h2 style="text-align: center;">Welcome to LITTLE PAWS Animal Rescue Organization's Website</h2>
+                <h3 style="text-align: center;">"Where Tiny Steps Lead to Big Hearts! "</h3>
+                <br>
+                <table style="border-spacing: 2em;">
+                    <tr>
+                        <td>
+                            <h3 style="text-decoration: underline; font-weight: bold; text-align: center;">About Us</h3>
+                            <p class="home_page_description">
+                                Little Paws Animal Rescue is a non-profit organization started in 2024 in the Greater Montreal. Fouad Meida (Founder and Executive Director of the organization) was busy fostering and finding homes for Papillons and soon became involved in the re-homing of other small dogs and cats in need.
+                                Things became too busy for him to handle, so foster homes were needed. Ideas for fund raising were discussed and implemented and he decided on the name "Little Paws Animal Rescue".
+                                As the key players in Little Paws Animal Rescue Organization, Fouad and his crew of compassionate volunteers take seriously their responsibilities concerning this organization. At any given time you will find one or more dogs and cats being fostered in their homes.
+                                As volunteers themselves, they work hard to understand and encourage the people volunteering with them. All monetary matters are handled by them. They take the lead and are directly involved in all decisions made in regards to the dogs and cats coming into rescue, the dogs' and cats' care, home checks and placements.
+                                Life is busy at Little Paws Animal Rescue Organization and sometimes overwhelming, but the reward comes when one more second hand dog or cat is placed in a secure, loving, permanent home. An adopted "second hand" dog or cat can make an excellent pet.
+                                With sensitivity, patience and basic training you'll have a first-rate pet.
+                            </p>
+                        </td>
+                        <td>
+                            <br>
+                            <img src="cute_dog.jpg" alt="Home page - cute dog" width="525" height="349">
+                            <p style="font-weight: bold; font-style: italic;">"The only creatures that are evolved enough to convey pure love are dogs and infants. "</p>
+                            <p style="font-style: italic; text-align: right;">Johnny Depp</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br><br>
+                            <img src="cute_cat.jpg" alt="Home page - cute dog" width="525" height="349" >
+                            <p style="font-weight: bold; font-style: italic;">“Cats choose us; we don’t own them.”</p>
+                            <p style="font-style: italic; text-align: right; padding-right: 1.5em;">Kristin Cast</p>
+                        </td>
+                        <td>
+                            <h3 style="text-decoration: underline; font-weight: bold; text-align: center;">Our Missions</h3>
+                            <ul>
+                                <li>Remove animals from homeless situations.</li>
+                                <li>Provide medical care and rehabilitation as neccessary.</li>
+                                <li>Place animals in secure adoptive homes.</li>
+                                <li>Provide affordable vaccine & spay/neuter services.</li>
+                                <li>Provide resources for stray & feral cats.</li>
+                                <li>Sustain a Petfood Bank for those pets in need.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+
+                <div style="text-align: center;">
+                    <img src="cute_cat_and_dog.jpg" alt="Home page - Cute cat and dog" width="500" height="400">
+                </div>
+                
+                <h3 style="text-align: center;">Help us offset medical, dental, grooming and food expenses.</h3>
+                <h3 style="text-align: center; font-size:x-large">Your Donations Help!</h3>
+
+            </div>  
+        
+        <!-- Footer -->
+        <%- include('footer') %>
+    </body>
+</html>
+
+<!-- Bibliography:
+    - LOGO: The logo for this website page was created using Canva.com
+    reference: https://www.canva.com/design/play?type=TAB7AVEOUWQ&category=tACZCvjI6mE&locale=en
+    - PHOTO: Getty/Zoom Pet Photography. Cute dog (cute_dog.jpg). Southernliving.com , January 8, 2024
+    reference: https://www.southernliving.com/culture/pets/cute-dog-breeds
+    - PHOTO: Pakin Songmor / Getty Images. Cute cat (cute_cat.jpg). Thesprucepets.com , December 21, 2023
+    reference: https://www.thesprucepets.com/american-shorthair-cat-breed-profile-4774399
+    - PHOTO: Schubbel / Shutterstock. Dog and cat on the meadow in nature (cute_cat_and_dog.jpg). Shutterstock.com , (n.d.)
+    reference: https://www.shutterstock.com/image-photo/dog-cat-on-meadow-nature-119617003
+    - TEXT: Contact (About Us and Helping Animals). Little Paws Rescue Society. 
+    http://littlepawsrescue.ca/contact/, accessed February 7, 2024.
+    (Notice: the text is slightly edited from the original to better align with the content of the created organization)
+-->
